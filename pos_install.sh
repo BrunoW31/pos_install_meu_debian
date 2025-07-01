@@ -21,7 +21,9 @@ chmod +x burpsuite_pro_linux_v2025_5_6.sh
 ./burpsuite_pro_linux_v2025_5_6.sh
 
 # meus programas 
-sudo apt install vlc obs-studio ffmpeg mpv guvcview fastfetch htop git curl 7zip tor proxychains openvpn adb gimp inkscape libreoffice golang python3 hashcat keepassxc thunderbird make gcc python3-pip pipx 
+sudo apt install vlc obs-studio ffmpeg mpv guvcview fastfetch htop git curl 7zip tor proxychains openvpn adb gimp inkscape libreoffice golang python3 hashcat keepassxc thunderbird make gcc python3-pip pipx -y;
+sudo apt install flatpak -y;
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # instalar docker
 sudo apt install docker docker-compose docker.io
