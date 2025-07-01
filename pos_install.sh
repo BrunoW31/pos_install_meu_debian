@@ -1,9 +1,9 @@
 #!/bin/env bash
 
 ########################################
-#  Nome: Bruno Simonato                #
-#  data: 30/06/2025                    #
-#  programa: Pós instalação do debian  #
+#  Name: Bruno Simonato                #
+#  date: 30/06/2025                    #
+#  program: Pós instalação do debian  #
 ########################################
 
 #distro = /etc/os-release | grep "PRETTY_NAME" | cut -d "\"" -f 2
