@@ -26,7 +26,7 @@ sudo apt install flatpak -y;
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # instalar docker
-sudo apt install docker docker-compose docker.io;
+sudo apt install docker-compose docker.io;
 
 # instalar kvm
 sudo apt install qemu-system libvirt-daemon-system virt-manager;
